@@ -1,0 +1,19 @@
+{
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.markdownlint": true,
+    },
+    "pasteImage.path": "${currentFileDir}/images",
+    "markdownlint.config": {
+        "MD025": false,
+        "MD033": false,
+        "MD041": false,
+    },
+    "files.exclude": {
+        "**/*.xlsx": true,
+        ".gitattributes": true,
+    },
+}
