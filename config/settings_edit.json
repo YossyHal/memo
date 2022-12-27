@@ -1,0 +1,24 @@
+{
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.markdownlint": true
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "markdownlint.config": {
+        "MD025": false,
+        "MD033": false,
+        "MD041": false,
+        "MD045": false,
+        "MD046": false
+    },
+    "pasteImage.path": "${currentFileDir}/images",
+    "files.exclude": {
+        "**/*.xlsx": true,
+        ".gitattributes": true
+    }
+}

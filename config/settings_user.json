@@ -1,0 +1,26 @@
+{
+    "editor.formatOnType": false,
+    "editor.formatOnSave": false,
+    "files.eol": "\n",
+    "markdowntable.alignData": true,
+    "markdownlint.config": {
+        "MD033": false,
+        "MD040": false
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.markdownlint": false
+    },
+    "markdownlint.run": "onSave",
+    "markdownlint.ignore": [
+        "tmp.md",
+        "tmp*.md"
+    ],
+    "markdown.preview.breaks": false,
+    "editor.fontFamily": "BIZ UDゴシック",
+    "debug.console.fontFamily": "BIZ UDゴシック",
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open",
+    "[powershell]": {
+        "files.encoding": "shiftjis"
+    }
+}
