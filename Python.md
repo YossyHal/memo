@@ -23,6 +23,9 @@ python -m pip install flake8
 # PyTorch
 python -c 'import torch;print(torch.__version__);'
 
+# ONNX
+python -c 'import onnx;print(onnx.__version__);'
+
 # OpenCV
 python -c 'import cv2;print(cv2.__version__);'
 ```
