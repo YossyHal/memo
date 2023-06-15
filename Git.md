@@ -8,4 +8,10 @@ git config --local core.editor 'code --wait'
 
 # Vim
 git config --local core.editor vim
+
+# Git管理外のファイル一覧を表示
+git clean -xdn
+
+# Git管理外のファイルを削除
+git clean -xdf
 ```
