@@ -55,3 +55,30 @@ sudo chmod +x /bin/hadolint
 | docker image     prune | -          | 使用していないコンテナイメージを削除 |
 | docker container prune | -          | 停止しているコンテナの一括削除       |
 | docker volume    prune | -          | 未使用のローカルボリュームを削除     |
+
+## Example
+
+### Ubuntu
+
+```sh
+docker container run \
+-it                  \
+--rm                 \
+-v "$(pwd)":/work    \
+--workdir  "/work"   \
+ubuntu               \
+/bin/bash
+```
+
+### Node
+
+```sh
+docker container run \
+-it                  \
+--rm                 \
+-v "$(pwd)":/work    \
+--workdir  "/work"   \
+-p 3003:3003         \
+node:18.3.0-slim     \
+/bin/bash
+```
