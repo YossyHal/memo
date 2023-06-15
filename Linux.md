@@ -21,6 +21,9 @@ find . -type f | wc -l
 # ディレクトリ毎のファイル数をカウント
 for d in `find . -type d | sort`; do echo $d,`ls "$d" | wc -l`; done
 
+# カレントディレクトリの各ファイル・ディレクトリの容量一覧を表示
+du -sh *
+
 # 日付名でログ出力
 ls |& tee `date +%Y%m%d_%H%M`.log
 ```

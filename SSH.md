@@ -12,7 +12,7 @@
 
     ```powershell
     # SCPコマンドで /tmp に公開鍵を送る
-    scp "${HOME}/.ssh/id_rsa.pub" git@hoge.local:/tmp
+    scp "${HOME}/.ssh/id_rsa.pub" yossy@yossy-Ubuntu-desktop.local:/tmp
     ```
 
 1. パスワード認証でSSH接続
