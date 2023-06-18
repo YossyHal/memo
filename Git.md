@@ -14,4 +14,7 @@ git clean -xdn
 
 # Git管理外のファイルを削除
 git clean -xdf
+
+# 最新の develop をローカルの feature ブランチに適用
+git pull --rebase origin develop
 ```
