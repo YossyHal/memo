@@ -4,7 +4,7 @@
     "files.eol": "\n",
     "files.insertFinalNewline": true,
     "editor.codeActionsOnSave": {
-        "source.fixAll.markdownlint": true,
+        "source.fixAll.markdownlint": "explicit"
     },
     "pasteImage.path": "${currentFileDir}/images",
     "markdownlint.config": {

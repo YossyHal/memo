@@ -11,8 +11,10 @@ C:\Users\yossy\AppData\Local\Packages\Microsoft.Office.Desktop_8wekyb3d8bbwe\Loc
 Sub ScrollToA1Cell1()
     Dim i As Integer
     For i = ActiveWorkbook.Sheets.Count To 1 Step -1
-        ActiveWorkbook.Sheets(i).Select
-        Application.Goto ActiveSheet.Range("A1"), True
-Next
+        If ActiveWorkbook.Sheets(i).Visible = True Then
+            ActiveWorkbook.Sheets(i).Select
+            Application.Goto ActiveSheet.Range("A1"), True
+        End If
+    Next i
 End Sub
 ```
