@@ -2,6 +2,9 @@
 # パッケージを最新化
 sudo apt update && sudo apt upgrade -y
 
+# 全部実行
+ sudo apt update && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y
+
 # dmesgをファイルに出力
 sudo dmesg > dmesg_`date +%Y_%m%d_%H%M_%S`_`uname -n`_`uname -r`.log
 
